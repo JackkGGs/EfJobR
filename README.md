@@ -37,4 +37,17 @@ pip install -r requirements.txt
 ```
 discord.py>=2.0
 ```
-If `pip` isn't recogni
+
+If `pip` isn't recognised:
+
+1. Re-open your Python installation.
+2. Click `Modify`.
+3. Check `pip`.
+4. Click next.
+5. Click install.
+6. Redo `pip install -r requirements.txt` in the directory of the project.
+
+### 3. Set Up Your Discord Bot Token and Gemini API Key
+- Create a bot on the Discord Developer Portal.
+- Obtain the Bot Token and save it in a new Python file named config.py in the root directory of your project.
+
