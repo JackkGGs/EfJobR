@@ -7,6 +7,7 @@ This is a Discord bot, specifically `discord.py`. It runs on weaker CPUs and req
   - **Dynamic Responses**: Parameters of the LLM are randomised on every message it receives.
   - **Private**: Received and sent messages are not directly visible to the bot's program executor. It is multi-layer encrypted, and the encryption is randomised for every message received and sent.
   - **Efficient**: Low system requirements. Internet speeds are not a big deal, as latency is more important. 50ms is already very responsive.
+  - **Multilingual**: Supports a wide range of languages. You can even use Akkadian if you insist.
 
 ## Installation and Setup
 
@@ -48,6 +49,13 @@ If `pip` isn't recognised:
 6. Redo `pip install -r requirements.txt` in the directory of the project.
 
 ### 3. Set Up Your Discord Bot Token and Gemini API Key
-- Create a bot on the Discord Developer Portal.
-- Obtain the Bot Token and save it in a new Python file named config.py in the root directory of your project.
+- Create a bot on the [Discord Developer Portal](https://discord.com/developers/applications).
+- Create a [Gemini Flash-Lite 2.5 Key](https://aistudio.google.com/apikey)
+- Obtain the Bot Token and Gemini API Key and save them in a new Python file named config.py in the root directory of your project. Should be on a different variable.
 
+### 5. Run the Bot
+Once the setup is complete, you can run the bot (note that the terminal must be on the same directory as your code) with:
+
+```bash
+python bot.py
+```
