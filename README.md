@@ -48,17 +48,20 @@ If `pip` isn't recognised:
 5. Click install.
 6. Redo `pip install -r requirements.txt` in the directory of the project.
 
-### 3. Set Up Your Discord Bot Token and Gemini API Key
+#### 3. Set Up Your Discord Bot Token and Gemini API Key
 - Create a bot on the [Discord Developer Portal](https://discord.com/developers/applications).
 - Create a [Gemini Flash-Lite 2.5 Key](https://aistudio.google.com/apikey)
 - Obtain the Bot Token and Gemini API Key and save them in config.py.
 
-### 4. Run the Bot
+#### 4. Run the Bot
 Once the setup is complete, you can run the bot (note that the terminal must be in the same directory as your code) with:
 
 ```bash
 python bot.py
 ```
+
+#### What is main_c.py for?
+This'll be your canvas for potential changes you might wanna do on the command line for better speed. It's a one to one copy, at least to me.
 
 ## Usage
 This bot only uses one command, and that is:
@@ -67,4 +70,5 @@ This bot only uses one command, and that is:
 However, if the user values more privacy, you can use:
 `!job_recommendations lets talk on the dms for more privacy.`
 
-# Thanks. This repo is completely open source.
+# Thanks.
+This repo is completely open source, fork this repo if you insist.
