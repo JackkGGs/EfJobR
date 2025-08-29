@@ -1,7 +1,7 @@
 # EfJobR
 
 ## Overview
-This is a Discord bot, specifically `discord.py`. It runs on weaker CPUs and requires stable internet speeds of over 100 KB/s and a latency lower than 100ms to be used efficiently. It uses Gemini 2.5 Flash-Lite to give dynamics. With this bot, you can easily find recruitment forms for free. Note that it doesn't send messages to servers. Instead, it directly messages you on your PMs. It's protected by encryption, and the person running the program can't directly see what you're doing.
+This program allows users to obtain jobs easily. This is a Discord bot, specifically `discord.py`. It runs on weaker CPUs and requires stable internet speeds of over 100 KB/s and a latency lower than 100ms to be used efficiently. It uses Gemini 2.5 Flash-Lite to give dynamics. With this bot, you can easily find recruitment forms for free. Note that it doesn't send messages to servers. Instead, it directly messages you on your PMs. It's protected by encryption, and the person running the program can't directly see what you're doing.
 
 ## Features
   - **Dynamic Responses**: Parameters of the LLM are randomised on every message it receives.
