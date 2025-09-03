@@ -5,8 +5,8 @@ This program allows users to obtain jobs easily. This is a Discord bot, specific
 
 ## Features
   - **Dynamic Responses**: Parameters of the LLM are randomised on every message it receives.
-  - **Private**: Received and sent messages are not directly visible to the bot's program executor. The messages are automatically sent to Gemini.
-  - **Efficient**: Low system requirements. Internet speeds are not a big deal, as latency is more important. 50ms is already very responsive.
+  - **Private**: Received and sent messages are not directly visible to the bot's program executor. The messages are directly sent to Gemini.
+  - **Efficient**: Low system requirements. Internet speeds are not a big deal, however latency is more important. 50ms is already very responsive.
   - **Multilingual**: Supports a wide range of languages. You can even use Akkadian if you insist.
 
 ## Installation and Setup
