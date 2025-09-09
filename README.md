@@ -1,12 +1,12 @@
 # EfJobR
 
 ## Overview
-This program allows users to obtain jobs easily. This is a Discord bot, specifically `discord.py`. It runs on weaker CPUs and requires stable internet speeds of over 100 KB/s and a latency lower than 100ms to be used efficiently. It uses Gemini 2.5 Flash-Lite to give dynamics. With this bot, you can easily find recruitment forms for free. Note that it doesn't send messages to servers. Instead, it directly messages you on your PMs. It's protected by encryption, and the person running the program can't directly see what you're doing.
+This program interactively searches for recruitments. This project uses `discord.py` as its base. It runs on weaker CPUs and requires stable internet speeds of over 100 KB/s and a latency lower than 100ms to be used efficiently and quickly. It uses Gemini 2.5 Flash-Lite to give responses. It's protected by encryption, and the person running the program can't directly see what you're doing.
 
 ## Features
   - **Dynamic Responses**: Parameters of the LLM are randomised on every message it receives.
   - **Private**: Received and sent messages are not directly visible to the bot's program executor. The messages are directly sent to Gemini.
-  - **Efficient**: Low system requirements. Internet speeds are not a big deal, however latency is more important. 50ms is already very responsive.
+  - **Efficient**: Low system requirements. Internet speeds are not a big deal; however, latency is more important. 50ms is already very responsive.
   - **Multilingual**: Supports a wide range of languages. You can even use Akkadian if you insist.
 
 ## Installation and Setup
@@ -19,7 +19,7 @@ This program allows users to obtain jobs easily. This is a Discord bot, specific
 
 #### 1. Clone This Repository
 
-Clone the repository to your local machine.
+Clone this repository to your local machine.
 
 ```bash
 git clone https://github.com/JackkGGs/EfJobR/
@@ -61,14 +61,14 @@ python bot.py
 ```
 
 #### What is main_c.py for?
-This'll be your canvas for potential changes you might wanna do on the command line for better speed. It's a one to one copy, at least to me.
+This'll be your canvas for potential changes on the command line. This helps to gain speed. It's a one-to-one copy, at least for me.
 
 ## Usage
 This bot only uses one command, and that is:
 `!job_recommendations [your interests]`
 
-However, if the user values more privacy, you can use:
-`!job_recommendations lets talk on the dms for more privacy.`
+However, if the user values privacy more (by means of not wanting to give what their education was, for example), the user can use:
+`!job_recommendations lets talk on the DMs for more privacy.`
 
 # Thanks.
-This repo is completely open source, fork this repo if you insist.
+This repository is completely open-source. Any changes do not need credits.
