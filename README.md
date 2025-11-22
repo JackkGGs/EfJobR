@@ -70,5 +70,7 @@ This bot only uses one command, and that is:
 However, if the user values privacy more (by means of not wanting to give what their education was, for example), the user can use:
 `!job_recommendations lets talk on the DMs for more privacy.`
 
+Using the bot is as simple as chatting with it. Once you're on the DM interface with the bot you DO NOT need to use the command.
+
 # Thanks.
 This repository is completely open-source. Any changes do not need credits.
